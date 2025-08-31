@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/intership",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Intership\\": "app/",
+            "Modules\\Intership\\Database\\Factories\\": "database/factories/",
+            "Modules\\Intership\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Intership\\Tests\\": "tests/"
+        }
+    }
+}
