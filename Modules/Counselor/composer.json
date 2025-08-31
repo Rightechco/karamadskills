@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/counselor",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Counselor\\": "app/",
+            "Modules\\Counselor\\Database\\Factories\\": "database/factories/",
+            "Modules\\Counselor\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Counselor\\Tests\\": "tests/"
+        }
+    }
+}
