@@ -1,0 +1,11 @@
+{
+    "name": "Resume",
+    "alias": "resume",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Resume\\Providers\\ResumeServiceProvider"
+    ],
+    "files": []
+}
