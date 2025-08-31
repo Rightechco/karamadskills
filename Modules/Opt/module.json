@@ -1,0 +1,11 @@
+{
+    "name": "Opt",
+    "alias": "opt",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Opt\\Providers\\OptServiceProvider"
+    ],
+    "files": []
+}

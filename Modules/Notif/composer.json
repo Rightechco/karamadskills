@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/notif",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Notif\\": "app/",
+            "Modules\\Notif\\Database\\Factories\\": "database/factories/",
+            "Modules\\Notif\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Notif\\Tests\\": "tests/"
+        }
+    }
+}

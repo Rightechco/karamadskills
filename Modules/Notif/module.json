@@ -1,0 +1,11 @@
+{
+    "name": "Notif",
+    "alias": "notif",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Notif\\Providers\\NotifServiceProvider"
+    ],
+    "files": []
+}
